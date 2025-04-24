@@ -1,0 +1,438 @@
+body {
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+    background: linear-gradient(to bottom right, #fff1f9 0%, #ffe6f2 30%, #ffd8ec 60%, #fff8fd 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    color: #333;
+    overflow-x: hidden;
+  }
+  
+  
+  .header {
+    background: url('https://i.pinimg.com/736x/d4/23/9b/d4239b0cfb3f9a8b538bde4fd785f5e9.jpg') repeat;
+    background-size: contain;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 5px 10px rgba(255, 192, 203, 0.3);
+    width: 100%;
+    border-bottom: 6px dashed #fff0f5;
+  }
+  
+
+  .nav-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  
+
+
+  .hero {
+    background: #fff0f8;
+    border: 2px dashed #ffc0cb;
+    padding: 3rem 2rem;
+    margin: 2rem auto;
+    max-width: 800px;
+    border-radius: 30px;
+    box-shadow: 0 4px 15px rgba(255, 182, 193, 0.4);
+    z-index: 10;
+    position: relative;
+
+  }
+  
+  
+  
+  
+  
+
+  .photo-card {
+    padding: 10px;
+    background: #fff;
+    border: 3px solid #ffcce7;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.3);
+    border-radius: 15px;
+    transform: rotate(-1deg);
+    z-index: 10;
+  }
+
+  body {
+    cursor: url('https://www.cursor.cc/cursor3d/55663.png'), auto;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+  }
+  
+  
+  .logo-container img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .logo-container h1 {
+    font-size: 1.8rem;
+    color: #fff;
+    text-shadow: 2px 2px #f48fb1;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #ff69b4;
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    z-index: 10;
+  }
+  
+  .hero h2 {
+    font-size: 2.5rem;
+    color: #ff69b4;
+    text-shadow: 2px 2px #fff;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .section-divider {
+    height: 30px;
+    background: linear-gradient(to right, #ffc0cb 25%, #ffb6c1 50%, #ffc0cb 75%);
+    border-top: 4px dashed #fff0f5;
+    border-bottom: 4px dashed #fff0f5;
+    margin: 20px 0;
+    z-index: 5;
+    position: relative;
+  }
+  
+  .gallery {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .gallery h2 {
+    color: #ff69b4;
+    font-size: 2rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 2rem;
+  }
+  
+  .photo-card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .photo-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .photo-card img {
+    width: 100%;
+    display: block;
+  }
+  
+  .about,
+  .contact {
+    text-align: center;
+    padding: 3rem 2rem;
+    background: #fff0f5;
+    margin-top: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(255, 192, 203, 0.2);
+  }
+  
+  .about h2,
+  .contact h2 {
+    color: #ff69b4;
+    font-size: 2rem;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .contact input,
+  .contact textarea {
+    padding: 1rem;
+    border: 2px solid #ffb6c1;
+    border-radius: 10px;
+    font-size: 1rem;
+  }
+  
+  .contact button {
+    padding: 1rem;
+    background: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .contact button:hover {
+    background: #ff1493;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 1rem;
+    background: #ffccf9;
+    font-size: 0.9rem;
+    color: white;
+  }
+
+  @keyframes shimmerBorder {
+    0% {
+      box-shadow: 0 0 0px rgba(255, 182, 193, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 12px rgba(255, 182, 193, 0.7);
+    }
+    100% {
+      box-shadow: 0 0 0px rgba(255, 182, 193, 0.3);
+    }
+  }
+  
+
+  .cloud {
+    position: absolute;
+    background: url('https://png.pngtree.com/png-vector/20230426/ourmid/pngtree-cute-cloud-vector-png-image_6729360.png') no-repeat;
+    background-size: contain;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.6;
+  }
+  
+  /* Bounce style */
+  @keyframes bounceCloud {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  /* Float left to right */
+  @keyframes floatClouds {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(50x); }  /* nice lil drift */
+    100% { transform: translateX(0); }
+  }
+  
+  @keyframes floatCloudsReverse {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(-50px); }
+    100% { transform: translateX(0); }
+  }
+  
+  /* Each cloud styled uniquely */
+  .cloud1 {
+    top:160px;
+    left: 20%;
+    width: 100px;
+    height: 70px;
+    animation: floatClouds 20s ease-in-out infinite;
+  }
+  
+  .cloud2 {
+    top: 200px;
+    right: 10%;
+    width: 120px;
+    height: 80px;
+    animation: floatCloudsReverse 25s ease-in-out infinite;
+  }
+  
+  .cloud3 {
+    top: 350px;
+    left: 10%;
+    width: 90px;
+    height: 60px;
+    animation: bounceCloud 5s ease-in-out infinite;
+  }
+  
+  .cloud4 {
+    top: 390px;
+    right: 15%;
+    width: 110px;
+    height: 70px;
+    animation: bounceCloud 6s ease-in-out infinite;
+  }
+  
+
+  .kawaii-plane {
+    position: fixed;
+    top: 300px; /* starting height */
+    left: -150px;
+    width: 100px;
+    height: 60px;
+    background: url('https://cdn-icons-png.flaticon.com/512/2327/2327279.png') no-repeat;
+    background-size: contain;
+    z-index: 0;
+    animation: zigzagPlane 20s ease-in-out infinite;
+    pointer-events: none;
+    opacity: 0.85;
+  }
+  
+  @keyframes zigzagPlane {
+    0%   { transform: translate(0vw, 0vh) rotate(0deg); }
+    10%  { transform: translate(10vw, -2vh) rotate(-3deg); }
+    20%  { transform: translate(20vw, 1vh) rotate(2deg); }
+    30%  { transform: translate(30vw, -3vh) rotate(-4deg); }
+    40%  { transform: translate(40vw, 2vh) rotate(3deg); }
+    50%  { transform: translate(50vw, -1vh) rotate(-2deg); }
+    60%  { transform: translate(60vw, 2vh) rotate(3deg); }
+    70%  { transform: translate(70vw, -3vh) rotate(-3deg); }
+    80%  { transform: translate(80vw, 1vh) rotate(2deg); }
+    90%  { transform: translate(90vw, -2vh) rotate(-2deg); }
+    100% { transform: translate(110vw, 0vh) rotate(0deg); }
+  }
+
+  .sparkle-trail {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: radial-gradient(circle, #b3007d 0%, #fff0f5 40%, transparent 70%);
+    border-radius: 50%;
+    filter: blur(6px);
+    opacity: 0.6;
+    animation: sparkleTrailAnim 8s linear infinite;
+    z-index: 0; /* keeps it under the plane */
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  @keyframes sparkleTrailAnim {
+    0% { transform: translate(0, 0) scale(1); opacity: 0.6; }
+    50% { transform: translate(20px, 10px) scale(1.1); opacity: 0.4; }
+    100% { transform: translate(40px, 20px) scale(1); opacity: 0; }
+  }
+  
+  
+  
+  
+
+  .frosty-frame {
+    background: linear-gradient(145deg, #fff0f5, #ffe4ec, #fce4ec);
+    padding: 2.5rem;
+    margin: 2rem auto;
+    border: 4px dashed #ffb6c1;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+    max-width: 800px;
+    position: relative;
+    z-index: 2;
+  }
+  
+  
+  
+  @keyframes bounceCloud {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+  
+  
+  .floating-sticker {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 75px;
+    z-index: 999;
+    animation: bob 4s ease-in-out infinite;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.2));
+
+  }
+  
+  
+  @keyframes bob {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+  }
+
+  button:hover {
+    transform: scale(1.1) rotate(1deg);
+    box-shadow: 0 0 15px #ffb6c1;
+    transition: all 0.3s ease;
+  }
+  
+  .kawaii-header {
+    background: #fff0f5;
+    padding: 0.5rem 1.5rem;
+    display: inline-block;
+    border: 2px dashed #ffb6c1;
+    border-radius: 20px;
+    color: #ff69b4;
+    font-size: 1.7rem;
+    box-shadow: 0 4px 10px rgba(255, 192, 203, 0.4);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* ✨ This part helps readability */
+  }
+  
+  
+  .section-title-wrapper {
+    text-align: center;
+    margin-top: 2.5rem;
+  }
+
+  .section-divider {
+    width: 100%;
+    height: 12px;
+    background: repeating-linear-gradient(
+      45deg,
+      #ffdef5,
+      #ffdef5 10px,
+      #ffeaff 10px,
+      #ffeaff 20px,
+      #def5ff 20px,
+      #def5ff 30px
+    );
+    margin: 40px 0;
+    border-radius: 6px;
+    animation: sparkleMove 4s linear infinite;
+    box-shadow: 0 2px 10px rgba(255, 200, 250, 0.5);
+  }
+  
+  @keyframes sparkleMove {
+    0% { background-position: 0 0; }
+    100% { background-position: 200px 0; }
+  }
