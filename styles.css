@@ -241,7 +241,7 @@ body {
     background-size: contain;
     pointer-events: none;
     z-index: 1;
-    opacity: 0.6;
+    opacity: 1;
   }
   
   /* Bounce style */
@@ -295,10 +295,37 @@ body {
     height: 70px;
     animation: bounceCloud 6s ease-in-out infinite;
   }
+
+  .cloud5 {
+    top: 500px;
+    right: 30%;
+    width: 110px;
+    height: 70px;
+    animation: bounceCloud 6s ease-in-out infinite;
+  }
+
+  .cloud6 {
+    top: 500px;
+    right: 70%;
+    width: 110px;
+    height: 70px;
+    animation: floatCloudsReverse 25s ease-in-out infinite;
+
+  }
+
+  .cloud7 {
+    top: 250px;
+    left: 68%;
+    width: 90px;
+    height: 75px;
+    animation: bounceCloud 5s ease-in-out infinite;
+  }
+  
+  
   
 
   .kawaii-plane {
-    position: fixed;
+    position: static;
     top: 300px; /* starting height */
     left: -150px;
     width: 100px;
